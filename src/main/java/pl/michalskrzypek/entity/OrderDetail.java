@@ -47,5 +47,63 @@ public class OrderDetail implements Serializable {
 	
 	@Column(name = "order_date")
 	private Date orderDate;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getAccountId() {
+		return accountId;
+	}
+
+	public void setAccountId(int accountId) {
+		this.accountId = accountId;
+	}
+
+	public double getTotal() {
+		return total;
+	}
+
+	public void setTotal(double total) {
+		this.total = total;
+	}
+
+	public int getOrderCount() {
+		return orderCount;
+	}
+
+	public void setOrderCount(int orderCount) {
+		this.orderCount = orderCount;
+	}
+
+	public int getShippingId() {
+		return shippingId;
+	}
+
+	public void setShippingId(int shippingId) {
+		this.shippingId = shippingId;
+	}
+
+	public int getBillingId() {
+		return billingId;
+	}
+
+	public void setBillingId(int billingId) {
+		this.billingId = billingId;
+	}
+
+	public Date getOrderDate() {
+		return orderDate;
+	}
+
+	public void setOrderDate(Date orderDate) {
+		this.orderDate = orderDate;
+	}
+	
+	
 	
 }
