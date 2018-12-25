@@ -21,7 +21,7 @@ public class CategoryTestCase {
 	private Category category;
 
 	
-	@BeforeClass
+//	@BeforeClass
 	public static void init() {
 
 		context = new AnnotationConfigApplicationContext();
@@ -33,7 +33,7 @@ public class CategoryTestCase {
 	}
 	
 
-	@Test
+//	@Test
 	public void CRUDtest() {
 
 		category = new Category();

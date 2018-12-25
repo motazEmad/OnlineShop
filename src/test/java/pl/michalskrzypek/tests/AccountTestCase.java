@@ -18,7 +18,7 @@ public class AccountTestCase {
 	private static AccountDAO accountDAO;
 	Account account;
 
-	@BeforeClass
+//	@BeforeClass
 	public static void init() {
 		context = new AnnotationConfigApplicationContext();
 		context.scan("pl.michalskrzypek");
@@ -27,7 +27,7 @@ public class AccountTestCase {
 
 	}
 
-	@Test
+//	@Test
 	public void CRUDtest() {
 		
 		//ADDING NEW ACCOUNT
