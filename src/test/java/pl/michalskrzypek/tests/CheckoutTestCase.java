@@ -31,7 +31,7 @@ public class CheckoutTestCase {
 	
 	HttpSession httpSession;
 
-//	@BeforeClass
+	@BeforeClass
 	public static void init() {
 
 		context = new AnnotationConfigApplicationContext();
